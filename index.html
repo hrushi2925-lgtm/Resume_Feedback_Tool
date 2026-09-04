@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Resume Feedback Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>AI Resume Feedback Tool</h1>
+    <p>Upload your resume (PDF) and get instant AI-powered feedback.</p>
+
+    <form id="uploadForm">
+      <input type="file" id="resumeFile" accept=".pdf" required>
+      <button type="submit">Get Feedback</button>
+    </form>
+
+    <div id="loading" class="hidden">Analyzing your resume...</div>
+
+    <div id="results" class="hidden">
+      <h2>Feedback</h2>
+      <p id="feedbackText"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
