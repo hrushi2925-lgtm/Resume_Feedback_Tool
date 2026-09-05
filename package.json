@@ -20,7 +20,10 @@
   "homepage": "https://github.com/hrushi2925-lgtm/Resume_Feedback_Tool#readme",
   "dependencies": {
     "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "multer": "^2.3.0"
+    "groq-sdk": "^1.6.0",
+    "multer": "^2.3.0",
+    "pdf-parse": "^1.1.1"
   }
 }
